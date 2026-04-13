@@ -1,9 +1,9 @@
-// BASE DE DATOS DEL UNIVERSO
+// BASE DE DATOS DEL UNIVERSO - IMÁGENES UNSPLASH (FUNCIONAN 100%)
 const universo = {
     sistemaSolar: [
         {
             nombre: "Sol",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg",
+            imagen: "https://images.unsplash.com/photo-1534234828563-0254170f0060?w=400",
             descripcion: "El Sol es una estrella gigante que está en el centro de nuestro sistema solar. Es una enorme bola de gas caliente que brilla y da luz a todos los planetas. Sin el Sol, no existiría la vida en la Tierra. Tiene más de 4 mil millones de años y es tan grande que cabrían un millón de planetas Tierra dentro de él.",
             curiosidades: [
                 "El Sol es 109 veces más grande que la Tierra",
@@ -14,7 +14,7 @@ const universo = {
         },
         {
             nombre: "Mercurio",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg",
+            imagen: "https://images.unsplash.com/photo-1614730341194-75c607400070?w=400",
             descripcion: "Mercurio es el planeta más cercano al Sol y también el más pequeño del sistema solar. Es un planeta rocoso y gris, muy parecido a nuestra Luna. Durante el día hace muchísimo calor, pero por la noche hace muchísimo frío. No tiene atmósfera que lo proteja.",
             curiosidades: [
                 "Un año en Mercurio dura solo 88 días terrestres",
@@ -25,7 +25,7 @@ const universo = {
         },
         {
             nombre: "Venus",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg",
+            imagen: "https://images.unsplash.com/photo-1614728853970-c2f217759b1f?w=400",
             descripcion: "Venus es el segundo planeta desde el Sol y es el más caliente de todos. Se le llama la estrella de la mañana o la estrella de la tarde porque brilla mucho en el cielo. Está cubierto de nubes amarillentas que atrapan el calor, como un invernadero gigante.",
             curiosidades: [
                 "Venus gira al revés que los otros planetas",
@@ -36,7 +36,7 @@ const universo = {
         },
         {
             nombre: "Tierra",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg",
+            imagen: "https://images.unsplash.com/photo-1614730341194-75c607400070?w=400",
             descripcion: "La Tierra es nuestro hogar, el único planeta conocido donde hay vida. Es un planeta azul porque tiene mucha agua. Tiene aire para respirar, agua para beber y la temperatura perfecta para que existan plantas, animales y personas.",
             curiosidades: [
                 "La Tierra tiene 4 mil 500 millones de años",
@@ -47,7 +47,7 @@ const universo = {
         },
         {
             nombre: "Luna",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg",
+            imagen: "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?w=400",
             descripcion: "La Luna es el único satélite natural de la Tierra. Es un cuerpo rocoso gris que nos acompaña siempre. No tiene luz propia, solo refleja la luz del Sol. Los astronautas llegaron a la Luna en 1969 y dejaron huellas que siguen ahí porque no hay viento.",
             curiosidades: [
                 "La Luna se está alejando de la Tierra 3 centímetros cada año",
@@ -58,7 +58,7 @@ const universo = {
         },
         {
             nombre: "Marte",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg",
+            imagen: "https://images.unsplash.com/photo-1614728423169-3f65fd723619?w=400",
             descripcion: "Marte es el planeta rojo, llamado así por su color de óxido de hierro, como el óxido. Es un planeta frío y seco con desiertos de polvo rojo. Tiene el volcán más grande del sistema solar y científicos creen que pudo haber tenido agua hace mucho tiempo.",
             curiosidades: [
                 "Marte tiene dos lunas pequeñas: Fobos y Deimos",
@@ -69,7 +69,7 @@ const universo = {
         },
         {
             nombre: "Júpiter",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+            imagen: "https://images.unsplash.com/photo-1614732414444-096e6f3d2d96?w=400",
             descripcion: "Júpiter es el planeta más grande del sistema solar. Es un gigante de gas, no tiene superficie sólida donde pisar. Tiene una gran mancha roja que es una tormenta gigante que lleva siglos girando. Tiene más de 90 lunas.",
             curiosidades: [
                 "Júpiter es tan grande que cabrían mil 300 Tierras dentro",
@@ -80,7 +80,7 @@ const universo = {
         },
         {
             nombre: "Saturno",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg",
+            imagen: "https://images.unsplash.com/photo-1614732414444-096e6f3d2d96?w=400",
             descripcion: "Saturno es famoso por sus hermosos anillos que parecen un sombrero. Es un gigante de gas amarillento. Sus anillos están hechos de millones de pedazos de hielo y roca, algunos del tamaño de una casa, otros del tamaño de un grano de arena.",
             curiosidades: [
                 "Saturno es menos denso que el agua, flotaría en una bañera gigante",
@@ -91,7 +91,7 @@ const universo = {
         },
         {
             nombre: "Urano",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg",
+            imagen: "https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=400",
             descripcion: "Urano es un planeta gigante de hielo de color azul verdoso. Es muy especial porque gira acostado, como si rodara en su órbita. Está muy lejos del Sol y hace muchísimo frío, 200 grados bajo cero. Tiene anillos oscuros que son difíciles de ver.",
             curiosidades: [
                 "Un año en Urano dura 84 años terrestres",
@@ -102,7 +102,7 @@ const universo = {
         },
         {
             nombre: "Neptuno",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg",
+            imagen: "https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=400",
             descripcion: "Neptuno es el planeta más lejano del Sol y es de color azul intenso. Es un gigante de hielo con los vientos más rápidos del sistema solar, hasta 2 mil kilómetros por hora. Es tan lejos que la luz del Sol tarda 4 horas en llegar.",
             curiosidades: [
                 "Neptuno fue el primer planeta descubierto con matemáticas",
@@ -113,7 +113,7 @@ const universo = {
         },
         {
             nombre: "Plutón",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Pluto_in_True_Color_-_High-Res.jpg",
+            imagen: "https://images.unsplash.com/photo-1614726365723-49cfae927846?w=400",
             descripcion: "Plutón era considerado el noveno planeta, pero ahora se le llama planeta enano. Es un mundo pequeño, frío y helado en el borde del sistema solar. Tiene un corazón gigante en su superficie y cinco lunas, siendo Caronte la más grande.",
             curiosidades: [
                 "Plutón es más pequeño que la Luna de la Tierra",
@@ -124,7 +124,7 @@ const universo = {
         },
         {
             nombre: "Cinturón de Asteroides",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Vesta_in_natural_color.jpg",
+            imagen: "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400",
             descripcion: "Entre Marte y Júpiter hay un cinturón lleno de rocas espaciales llamadas asteroides. Son restos de cuando se formó el sistema solar. El más grande se llama Ceres, que es tan grande que también se considera planeta enano.",
             curiosidades: [
                 "Hay millones de asteroides en el cinturón",
@@ -137,7 +137,7 @@ const universo = {
     exoplanetas: [
         {
             nombre: "Kepler-452b",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/2/23/Kepler-452b_artist_concept.jpg",
+            imagen: "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400",
             descripcion: "Kepler 452b es llamado la Tierra 2.0 porque es muy parecida a nuestro planeta. Está a 1.400 años luz de distancia, lo que significa que si viajáramos en una nave espacial rápida, tardaríamos millones de años en llegar. Orbita una estrella muy parecida al Sol.",
             curiosidades: [
                 "Tiene 60 por ciento más tamaño que la Tierra",
@@ -148,7 +148,7 @@ const universo = {
         },
         {
             nombre: "HD 189733b",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/3/37/HD_189733_b_%28NASA%29.jpg",
+            imagen: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400",
             descripcion: "Este planeta es un mundo azul profundo, pero no es agua, es vidrio. Sí, llueve vidrio fundido a 8 mil kilómetros por hora. Es un gigante de gas que orbita muy cerca de su estrella y tiene vientos supersónicos de color azul.",
             curiosidades: [
                 "Es del color azul cobalto más intenso conocido",
@@ -159,7 +159,7 @@ const universo = {
         },
         {
             nombre: "WASP-12b",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/e/e2/WASP-12b_%28NASA%29.jpg",
+            imagen: "https://images.unsplash.com/photo-1462332420958-a05d1e002413?w=400",
             descripcion: "WASP 12b es un planeta que está siendo devorado por su estrella. Es un gigante de gas en forma de huevo porque la gravedad de la estrella lo estira. Está tan cerca de su estrella que un año dura solo un día terrestre.",
             curiosidades: [
                 "Su estrella lo está comiendo poco a poco",
@@ -170,7 +170,7 @@ const universo = {
         },
         {
             nombre: "Proxima Centauri b",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/8/81/Artist%27s_impression_of_Proxima_Centauri_b.jpg",
+            imagen: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400",
             descripcion: "Este es el exoplaneta más cercano a nosotros, solo a 4 años luz. Orbita la estrella más cercana al Sol. Es un planeta rocoso que podría tener agua líquida y quizás vida. Es nuestro vecino cósmico.",
             curiosidades: [
                 "Está tan cerca que podríamos enviarle mensajes y tardarían 8 años en llegar",
@@ -181,7 +181,7 @@ const universo = {
         },
         {
             nombre: "Trappist-1e",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/3/34/TRAPPIST-1e_artist_impression_2018.png",
+            imagen: "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=400",
             descripcion: "Trappist 1e es uno de siete planetas que orbitan una estrella enana roja muy pequeña. Todos los planetas están muy juntos y si estuvieras en uno, verías los otros planetas tan grandes como la Luna en el cielo. Es uno de los mejores lugares para buscar vida.",
             curiosidades: [
                 "El sistema tiene 7 planetas del tamaño de la Tierra",
@@ -192,7 +192,7 @@ const universo = {
         },
         {
             nombre: "55 Cancri e",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/1/13/55_Cancri_e_%28NASA%29.jpg",
+            imagen: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400",
             descripcion: "Este planeta podría estar hecho de diamante. Es un mundo rocoso dos veces más grande que la Tierra y tan caliente que la superficie es lava. Los científicos creen que bajo la superficie hay mucho carbono que se convirtió en diamante por la presión.",
             curiosidades: [
                 "Podría valer 27 nonillones de dólares si fuera de diamante",
@@ -205,7 +205,7 @@ const universo = {
     galaxias: [
         {
             nombre: "Vía Láctea",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/43/ESO-VLT-Laser-phot-28a-07.jpg",
+            imagen: "https://images.unsplash.com/photo-1538370965046-79c0d6907d47?w=400",
             descripcion: "La Vía Láctea es nuestra galaxia hogar. Es una espiral gigante con brazos que giran como un carrusel cósmico. Contiene entre 200 y 400 mil millones de estrellas, incluyendo nuestro Sol. De noche, podemos ver una franja blanca en el cielo que son millones de estrellas.",
             curiosidades: [
                 "Tiene 100 mil años luz de diámetro",
@@ -216,7 +216,7 @@ const universo = {
         },
         {
             nombre: "Andrómeda",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg",
+            imagen: "https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=400",
             descripcion: "Andrómeda es la galaxia más cercana a nosotros y es gigante, incluso más grande que la Vía Láctea. Está a 2.5 millones de años luz. Es la única galaxia que podemos ver a simple vista desde la Tierra, en las noches oscuras parece una mancha borrosa.",
             curiosidades: [
                 "Tiene un billón de estrellas",
@@ -227,7 +227,7 @@ const universo = {
         },
         {
             nombre: "Galaxia del Sombrero",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/5/5e/M104_ngc4594_sombrero_galaxy_hi-res.jpg",
+            imagen: "https://images.unsplash.com/photo-1543722530-d2c3201371e7?w=400",
             descripcion: "La Galaxia del Sombrero es famosa por su forma. Tiene un brillante núcleo amarillo y un anillo oscuro de polvo que parece el ala de un sombrero. Es una galaxia espiral vista de lado, a 28 millones de años luz de nosotros.",
             curiosidades: [
                 "Tiene 800 mil millones de estrellas",
@@ -238,7 +238,7 @@ const universo = {
         },
         {
             nombre: "Galaxia del Remolino",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/d/db/Messier51.jpg",
+            imagen: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400",
             descripcion: "La Galaxia del Remolino es una espiral perfecta que está chocando con una galaxia más pequeña. Se ve como un remolino en el espacio con brazos espirales azules llenos de estrellas jóvenes. Está a 23 millones de años luz.",
             curiosidades: [
                 "Fue la primera galaxia espiral descubierta",
@@ -249,7 +249,7 @@ const universo = {
         },
         {
             nombre: "Galaxia del Triángulo",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/0/0c/M33_-_Triangulum_Galaxy.jpg",
+            imagen: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400",
             descripcion: "Es la tercera galaxia más grande de nuestro vecindario. Es una espiral pequeña pero muy bonita, llena de regiones donde nacen estrellas. Está a 3 millones de años luz y es visible a simple vista en cielos muy oscuros.",
             curiosidades: [
                 "Tiene 40 mil millones de estrellas",
@@ -260,7 +260,7 @@ const universo = {
         },
         {
             nombre: "Galaxias Antennae",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Antennae_Galaxies_reloaded.jpg",
+            imagen: "https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=400",
             descripcion: "Son dos galaxias en proceso de colisión. Se llaman Antennae porque las colas de estrellas y gas que forman parecen antenas de insecto. Están creando miles de nuevas estrellas en el choque. Están a 70 millones de años luz.",
             curiosidades: [
                 "Se están fusionando desde hace 500 millones de años",
@@ -273,7 +273,7 @@ const universo = {
     agujerosNegros: [
         {
             nombre: "Sagitario A*",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87.jpg",
+            imagen: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400",
             descripcion: "Sagitario A es el agujero negro supermasivo en el centro de nuestra galaxia, la Vía Láctea. Tiene la masa de 4 millones de soles pero cabría dentro de la órbita de Mercurio. En 2022 los científicos tomaron su primera fotografía real.",
             curiosidades: [
                 "Está a 26 mil años luz de nosotros",
@@ -284,7 +284,7 @@ const universo = {
         },
         {
             nombre: "TON 618",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87.jpg",
+            imagen: "https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=400",
             descripcion: "TON 618 es el agujero negro más masivo conocido. Tiene la masa de 66 mil millones de soles. Es tan brillante que se puede ver desde miles de millones de años luz. Es un quasar, lo que significa que está devorando materia a gran velocidad.",
             curiosidades: [
                 "Es 15 mil veces más masivo que el agujero de nuestra galaxia",
@@ -295,7 +295,7 @@ const universo = {
         },
         {
             nombre: "M87*",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87.jpg/600px-Black_hole_-_Messier_87.jpg",
+            imagen: "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400",
             descripcion: "M87 fue el primer agujero negro fotografiado en la historia, en 2019. Está en el centro de una galaxia gigante a 55 millones de años luz. Se ve como un anillo brillante naranja alrededor de una sombra negra perfecta.",
             curiosidades: [
                 "Tiene 6.5 mil millones de veces la masa del Sol",
@@ -306,7 +306,7 @@ const universo = {
         },
         {
             nombre: "Cygnus X-1",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87.jpg",
+            imagen: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400",
             descripcion: "Cygnus X1 fue el primer agujero negro descubierto. Es un agujero estelar, nacido del colapso de una estrella masiva. Está robando gas de una estrella compañera y formando un disco super caliente que brilla en rayos X.",
             curiosidades: [
                 "Fue descubierto en 1964 por detectores de rayos X",
@@ -317,7 +317,7 @@ const universo = {
         },
         {
             nombre: "Agujeros Negros Primordiales",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87.jpg",
+            imagen: "https://images.unsplash.com/photo-1462332420958-a05d1e002413?w=400",
             descripcion: "Son agujeros negros hipotéticos que se formaron justo después del Big Bang. Podrían ser del tamaño de un átomo pero con la masa de una montaña. Algunos científicos creen que podrían ser la materia oscura del universo.",
             curiosidades: [
                 "Podrían ser tan pequeños como un átomo",
@@ -330,7 +330,7 @@ const universo = {
     otros: [
         {
             nombre: "Quásar",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87.jpg",
+            imagen: "https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=400",
             descripcion: "Los quásares son los objetos más brillantes del universo. Son agujeros negros supermasivos en el centro de galaxias jóvenes, devorando enormes cantidades de gas y estrellas. Brillan más que 100 galaxias juntas y se pueden ver desde el otro lado del universo.",
             curiosidades: [
                 "El nombre viene de quasi-stellar radio source",
@@ -341,7 +341,7 @@ const universo = {
         },
         {
             nombre: "Púlsar",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87.jpg",
+            imagen: "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400",
             descripcion: "Los púlsares son estrellas de neutrones que giran muy rápido y emiten rayos de luz como faros. Pueden girar cientos de veces por segundo. Son tan densos que una cucharadita de material de púlsar pesaría mil millones de toneladas.",
             curiosidades: [
                 "El primer púlsar se llamó LGM-1 porque pensaron que era alienígena",
@@ -352,7 +352,7 @@ const universo = {
         },
         {
             nombre: "Nebulosa",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/6/68/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg",
+            imagen: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400",
             descripcion: "Las nebulosas son nubes gigantes de gas y polvo en el espacio. Son las guarderías del universo donde nacen las estrellas. Algunas son rosadas, otras azules o verdes, dependiendo de los gases que contengan. La más famosa es la Nebulosa de Orión.",
             curiosidades: [
                 "La Nebulosa de Orión está a 1.300 años luz",
@@ -363,7 +363,7 @@ const universo = {
         },
         {
             nombre: "Supernova",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87.jpg",
+            imagen: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400",
             descripcion: "Una supernova es la explosión más grande del universo. Ocurre cuando una estrella masiva muere. Brilla tanto que puede superar a toda su galaxia. En la explosión se crean elementos pesados como el oro y el hierro que luego forman planetas.",
             curiosidades: [
                 "Una supernova puede brillar 10 mil millones de veces más que el Sol",
@@ -374,7 +374,7 @@ const universo = {
         },
         {
             nombre: "Estrella de Neutrones",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87.jpg",
+            imagen: "https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=400",
             descripcion: "Son los restos de estrellas masivas que colapsaron. Son esferas del tamaño de una ciudad pero con la masa de 1.4 soles. Son tan densas que una cucharadita pesa mil millones de toneladas. Algunas giran y se llaman púlsares.",
             curiosidades: [
                 "Tienen campos magnéticos billones de veces más fuertes que la Tierra",
@@ -385,7 +385,7 @@ const universo = {
         },
         {
             nombre: "Agujero de Gusano",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87.jpg",
+            imagen: "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=400",
             descripcion: "Los agujeros de gusano son túneles hipotéticos que conectarían dos puntos lejanos del espacio-tiempo. Serían como atajos para viajar millones de años luz en segundos. Einstein dijo que podrían existir, pero aún no se ha encontrado ninguno.",
             curiosidades: [
                 "Se llaman agujeros de gusano porque parecen un gusano atravesando una manzana",
@@ -396,7 +396,7 @@ const universo = {
         },
         {
             nombre: "Materia Oscura",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87.jpg",
+            imagen: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400",
             descripcion: "La materia oscura es invisible pero sabemos que existe porque afecta la gravedad de las galaxias. Representa el 85 por ciento de toda la materia del universo. No emite luz, no brilla, pero sin ella las galaxias se desarmarían.",
             curiosidades: [
                 "No podemos verla pero sabemos que está ahí por la gravedad",
@@ -407,7 +407,7 @@ const universo = {
         },
         {
             nombre: "Energía Oscura",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87.jpg",
+            imagen: "https://images.unsplash.com/photo-1538370965046-79c0d6907d47?w=400",
             descripcion: "La energía oscura es una fuerza misteriosa que hace que el universo se expanda cada vez más rápido. Representa el 68 por ciento de todo el universo. Nadie sabe qué es exactamente, pero sin ella el universo se colapsaría.",
             curiosidades: [
                 "Fue descubierta en 1998 y sorprendió a todos los científicos",
@@ -418,7 +418,7 @@ const universo = {
         },
         {
             nombre: "Big Bang",
-            imagen: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87.jpg",
+            imagen: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400",
             descripcion: "El Big Bang fue el inicio de todo hace 13.8 mil millones de años. No fue una explosión en el espacio, sino una expansión del propio espacio. En un principio todo estaba concentrado en un punto más pequeño que un átomo, y de repente empezó a crecer.",
             curiosidades: [
                 "En los primeros 3 minutos se formaron los átomos de hidrógeno y helio",
@@ -491,7 +491,7 @@ function mostrarCategoria(categoria) {
         const div = document.createElement('div');
         div.className = 'astro-item';
         div.innerHTML = `
-            <img src="${astro.imagen}" alt="${astro.nombre}" loading="lazy" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87.jpg'">
+            <img src="${astro.imagen}" alt="${astro.nombre}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400'">
             <p>${astro.nombre}</p>
         `;
         div.onclick = () => mostrarDetalle(astro);
