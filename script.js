@@ -461,6 +461,10 @@ function mostrarMenu() {
     mostrarPantalla('pantalla-menu');
 }
 
+function volverMenu() {
+    mostrarPantalla('pantalla-menu');
+}
+
 function volverCategoria() {
     mostrarPantalla('pantalla-categoria');
 }
