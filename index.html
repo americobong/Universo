@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando el Universo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- PANTALLA DE INICIO -->
+        <div id="pantalla-inicio" class="pantalla activa">
+            <div class="portada">
+                <h1>🚀 EXPLORANDO EL UNIVERSO 🌌</h1>
+                <div class="universo-animado">🪐</div>
+                <button onclick="mostrarMenu()" class="btn-principal">¡DESPEGAR! 🚀</button>
+            </div>
+        </div>
+
+        <!-- MENÚ PRINCIPAL -->
+        <div id="pantalla-menu" class="pantalla">
+            <h2>¿A dónde quieres viajar?</h2>
+            <div class="menu-botones">
+                <button onclick="mostrarCategoria('sistemaSolar')" class="btn-categoria sol">
+                    ☀️ Sistema Solar
+                </button>
+                <button onclick="mostrarCategoria('exoplanetas')" class="btn-categoria exo">
+                    🪐 Exoplanetas
+                </button>
+                <button onclick="mostrarCategoria('galaxias')" class="btn-categoria galaxia">
+                    🌌 Galaxias
+                </button>
+                <button onclick="mostrarCategoria('agujerosNegros')" class="btn-categoria agujero">
+                    ⚫ Agujeros Negros
+                </button>
+                <button onclick="mostrarCategoria('otros')" class="btn-categoria otros">
+                    ✨ Misterios del Universo
+                </button>
+                <button onclick="mostrarJuego()" class="btn-juego">
+                    🎮 ¡JUGAR Y APRENDER!
+                </button>
+            </div>
+            <button onclick="volverInicio()" class="btn-volver">← Volver</button>
+        </div>
+
+        <!-- PANTALLA DE CATEGORÍA -->
+        <div id="pantalla-categoria" class="pantalla">
+            <h2 id="titulo-categoria">Categoría</h2>
+            <div id="lista-astros" class="grid-astros"></div>
+            <button onclick="volverMenu()" class="btn-volver">← Volver al Menú</button>
+        </div>
+
+        <!-- PANTALLA DE DETALLE -->
+        <div id="pantalla-detalle" class="pantalla">
+            <div class="detalle-contenedor">
+                <img id="detalle-imagen" src="" alt="">
+                <h3 id="detalle-nombre"></h3>
+                <button onclick="reproducirTodo()" class="btn-escuchar-grande">
+                    🔊 ESCUCHAR TODO
+                </button>
+                <div id="detalle-info"></div>
+                <button onclick="reproducirCuriosidad()" class="btn-curiosidad">
+                    🎲 CURIOSIDAD ALEATORIA
+                </button>
+            </div>
+            <button onclick="volverCategoria()" class="btn-volver">← Volver</button>
+        </div>
+
+        <!-- PANTALLA DEL JUEGO -->
+        <div id="pantalla-juego" class="pantalla">
+            <h2>🎮 JUEGO ESPACIAL 🎮</h2>
+            <div class="score">⭐ Puntos: <span id="puntos-juego">0</span></div>
+            
+            <div id="juego-contenedor">
+                <button onclick="reproducirPreguntaJuego()" class="btn-escuchar-juego" id="btn-pregunta-juego">
+                    🔊 ESCUCHAR PREGUNTA
+                </button>
+                
+                <div class="instruccion-juego">Toca el botón 👆</div>
+                
+                <div id="imagen-juego-contenedor" style="display: none;">
+                    <img id="imagen-juego" src="" alt="">
+                </div>
+                
+                <div id="opciones-juego" class="opciones-audio"></div>
+                <div id="resultado-juego"></div>
+            </div>
+            
+            <button onclick="nuevaPreguntaJuego()" class="btn-siguiente" id="btn-siguiente-juego" style="display:none;">
+                Siguiente ➡️
+            </button>
+            
+            <button onclick="volverMenu()" class="btn-volver">← Volver al Menú</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
