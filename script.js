@@ -1,139 +1,139 @@
 // BASE DE DATOS DEL UNIVERSO - IMÁGENES UNSPLASH (FUNCIONAN 100%)
 const universo = {
-    sistemaSolar: [
-        {
-            nombre: "Sol",
-            imagen: "https://images.unsplash.com/photo-1534234828563-0254170f0060?w=400",
-            descripcion: "El Sol es una estrella gigante que está en el centro de nuestro sistema solar. Es una enorme bola de gas caliente que brilla y da luz a todos los planetas. Sin el Sol, no existiría la vida en la Tierra. Tiene más de 4 mil millones de años y es tan grande que cabrían un millón de planetas Tierra dentro de él.",
-            curiosidades: [
-                "El Sol es 109 veces más grande que la Tierra",
-                "La temperatura del Sol es de 5 mil 500 grados en su superficie",
-                "La luz del Sol tarda 8 minutos en llegar a la Tierra",
-                "El Sol es una estrella mediana, hay estrellas mucho más grandes"
-            ]
-        },
-        {
-            nombre: "Mercurio",
-            imagen: "https://images.unsplash.com/photo-1614730341194-75c607400070?w=400",
-            descripcion: "Mercurio es el planeta más cercano al Sol y también el más pequeño del sistema solar. Es un planeta rocoso y gris, muy parecido a nuestra Luna. Durante el día hace muchísimo calor, pero por la noche hace muchísimo frío. No tiene atmósfera que lo proteja.",
-            curiosidades: [
-                "Un año en Mercurio dura solo 88 días terrestres",
-                "Mercurio no tiene lunas ni satélites",
-                "Es el planeta que viaja más rápido alrededor del Sol",
-                "La temperatura puede bajar a 180 grados bajo cero por la noche"
-            ]
-        },
-        {
-            nombre: "Venus",
-            imagen: "https://images.unsplash.com/photo-1614728853970-c2f217759b1f?w=400",
-            descripcion: "Venus es el segundo planeta desde el Sol y es el más caliente de todos. Se le llama la estrella de la mañana o la estrella de la tarde porque brilla mucho en el cielo. Está cubierto de nubes amarillentas que atrapan el calor, como un invernadero gigante.",
-            curiosidades: [
-                "Venus gira al revés que los otros planetas",
-                "Un día en Venus dura más que un año en Venus",
-                "Es tan brillante que se puede ver durante el día",
-                "Tiene volcanes y montañas muy altas"
-            ]
-        },
-        {
-            nombre: "Tierra",
-            imagen: "https://images.unsplash.com/photo-1614730341194-75c607400070?w=400",
-            descripcion: "La Tierra es nuestro hogar, el único planeta conocido donde hay vida. Es un planeta azul porque tiene mucha agua. Tiene aire para respirar, agua para beber y la temperatura perfecta para que existan plantas, animales y personas.",
-            curiosidades: [
-                "La Tierra tiene 4 mil 500 millones de años",
-                "Es el único planeta con océanos de agua líquida",
-                "La Luna es nuestro único satélite natural",
-                "La Tierra no es una esfera perfecta, está achatada en los polos"
-            ]
-        },
-        {
-            nombre: "Luna",
-            imagen: "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?w=400",
-            descripcion: "La Luna es el único satélite natural de la Tierra. Es un cuerpo rocoso gris que nos acompaña siempre. No tiene luz propia, solo refleja la luz del Sol. Los astronautas llegaron a la Luna en 1969 y dejaron huellas que siguen ahí porque no hay viento.",
-            curiosidades: [
-                "La Luna se está alejando de la Tierra 3 centímetros cada año",
-                "Siempre nos muestra la misma cara, la otra cara está oculta",
-                "En la Luna pesas 6 veces menos que en la Tierra",
-                "Hay montañas en la Luna más altas que las de la Tierra"
-            ]
-        },
-        {
-            nombre: "Marte",
-            imagen: "https://images.unsplash.com/photo-1614728423169-3f65fd723619?w=400",
-            descripcion: "Marte es el planeta rojo, llamado así por su color de óxido de hierro, como el óxido. Es un planeta frío y seco con desiertos de polvo rojo. Tiene el volcán más grande del sistema solar y científicos creen que pudo haber tenido agua hace mucho tiempo.",
-            curiosidades: [
-                "Marte tiene dos lunas pequeñas: Fobos y Deimos",
-                "Tiene el volcán más alto del sistema solar, el Monte Olimpo",
-                "Los días en Marte duran casi lo mismo que en la Tierra",
-                "Hay robots explorando Marte ahora mismo"
-            ]
-        },
-        {
-            nombre: "Júpiter",
-            imagen: "https://images.unsplash.com/photo-1614732414444-096e6f3d2d96?w=400",
-            descripcion: "Júpiter es el planeta más grande del sistema solar. Es un gigante de gas, no tiene superficie sólida donde pisar. Tiene una gran mancha roja que es una tormenta gigante que lleva siglos girando. Tiene más de 90 lunas.",
-            curiosidades: [
-                "Júpiter es tan grande que cabrían mil 300 Tierras dentro",
-                "Su gran mancha roja es del tamaño de la Tierra",
-                "Tiene un anillo muy tenue que casi no se ve",
-                "Gira tan rápido que un día dura solo 10 horas"
-            ]
-        },
-        {
-            nombre: "Saturno",
-            imagen: "https://images.unsplash.com/photo-1614732414444-096e6f3d2d96?w=400",
-            descripcion: "Saturno es famoso por sus hermosos anillos que parecen un sombrero. Es un gigante de gas amarillento. Sus anillos están hechos de millones de pedazos de hielo y roca, algunos del tamaño de una casa, otros del tamaño de un grano de arena.",
-            curiosidades: [
-                "Saturno es menos denso que el agua, flotaría en una bañera gigante",
-                "Sus anillos tienen más de 100 mil millones de partículas",
-                "Tiene una luna llamada Titán que tiene lagos de metano",
-                "Los vientos en Saturno pueden llegar a 1.800 kilómetros por hora"
-            ]
-        },
-        {
-            nombre: "Urano",
-            imagen: "https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=400",
-            descripcion: "Urano es un planeta gigante de hielo de color azul verdoso. Es muy especial porque gira acostado, como si rodara en su órbita. Está muy lejos del Sol y hace muchísimo frío, 200 grados bajo cero. Tiene anillos oscuros que son difíciles de ver.",
-            curiosidades: [
-                "Un año en Urano dura 84 años terrestres",
-                "Tiene 27 lunas conocidas",
-                "Es el planeta más frío del sistema solar",
-                "Gira acostado, probablemente por un choque gigante hace mucho tiempo"
-            ]
-        },
-        {
-            nombre: "Neptuno",
-            imagen: "https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=400",
-            descripcion: "Neptuno es el planeta más lejano del Sol y es de color azul intenso. Es un gigante de hielo con los vientos más rápidos del sistema solar, hasta 2 mil kilómetros por hora. Es tan lejos que la luz del Sol tarda 4 horas en llegar.",
-            curiosidades: [
-                "Neptuno fue el primer planeta descubierto con matemáticas",
-                "Tiene una gran mancha oscura como Júpiter, pero desaparece y aparece",
-                "Un año en Neptuno dura 165 años terrestres",
-                "Tiene 14 lunas conocidas, la más grande se llama Tritón"
-            ]
-        },
-        {
-            nombre: "Plutón",
-            imagen: "https://images.unsplash.com/photo-1614726365723-49cfae927846?w=400",
-            descripcion: "Plutón era considerado el noveno planeta, pero ahora se le llama planeta enano. Es un mundo pequeño, frío y helado en el borde del sistema solar. Tiene un corazón gigante en su superficie y cinco lunas, siendo Caronte la más grande.",
-            curiosidades: [
-                "Plutón es más pequeño que la Luna de la Tierra",
-                "Su corazón es una llanura de hielo del tamaño de Texas",
-                "Un día en Plutón dura 6 días y 9 horas terrestres",
-                "La sonda New Horizons lo visitó en 2015 y tomó fotos increíbles"
-            ]
-        },
-        {
-            nombre: "Cinturón de Asteroides",
-            imagen: "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400",
-            descripcion: "Entre Marte y Júpiter hay un cinturón lleno de rocas espaciales llamadas asteroides. Son restos de cuando se formó el sistema solar. El más grande se llama Ceres, que es tan grande que también se considera planeta enano.",
-            curiosidades: [
-                "Hay millones de asteroides en el cinturón",
-                "Algunos asteroides tienen sus propias lunas pequeñas",
-                "Los asteroides pueden ser de roca, metal o hielo",
-                "A veces asteroides salen del cinturón y pueden acercarse a la Tierra"
-            ]
-        }
-    ],
+sistemaSolar: [
+    {
+        nombre: "Sol",
+        imagen: "https://images.unsplash.com/photo-1534234828563-0254170f0060?w=400",
+        descripcion: "El Sol es una estrella gigante que está en el centro de nuestro sistema solar. Es una enorme bola de gas caliente que brilla y da luz a todos los planetas. Sin el Sol, no existiría la vida en la Tierra. Tiene más de 4 mil millones de años y es tan grande que cabrían un millón de planetas Tierra dentro de él.",
+        curiosidades: [
+            "El Sol es 109 veces más grande que la Tierra",
+            "La temperatura del Sol es de 5 mil 500 grados en su superficie",
+            "La luz del Sol tarda 8 minutos en llegar a la Tierra",
+            "El Sol es una estrella mediana, hay estrellas mucho más grandes"
+        ]
+    },
+    {
+        nombre: "Mercurio",
+        imagen: "https://images.unsplash.com/photo-1614730341194-75c607400070?w=400",
+        descripcion: "Mercurio es el planeta más cercano al Sol y también el más pequeño del sistema solar. Es un planeta rocoso y gris, muy parecido a nuestra Luna. Durante el día hace muchísimo calor, pero por la noche hace muchísimo frío. No tiene atmósfera que lo proteja.",
+        curiosidades: [
+            "Un año en Mercurio dura solo 88 días terrestres",
+            "Mercurio no tiene lunas ni satélites",
+            "Es el planeta que viaja más rápido alrededor del Sol",
+            "La temperatura puede bajar a 180 grados bajo cero por la noche"
+        ]
+    },
+    {
+        nombre: "Venus",
+        imagen: "https://images.unsplash.com/photo-1614728853970-c2f217759b1f?w=400",
+        descripcion: "Venus es el segundo planeta desde el Sol y es el más caliente de todos. Se le llama la estrella de la mañana o la estrella de la tarde porque brilla mucho en el cielo. Está cubierto de nubes amarillentas que atrapan el calor, como un invernadero gigante.",
+        curiosidades: [
+            "Venus gira al revés que los otros planetas",
+            "Un día en Venus dura más que un año en Venus",
+            "Es tan brillante que se puede ver durante el día",
+            "Tiene volcanes y montañas muy altas"
+        ]
+    },
+    {
+        nombre: "Tierra",
+        imagen: "https://images.unsplash.com/photo-1614732414444-096e6f3d2d96?w=400",
+        descripcion: "La Tierra es nuestro hogar, el único planeta conocido donde hay vida. Es un planeta azul porque tiene mucha agua. Tiene aire para respirar, agua para beber y la temperatura perfecta para que existan plantas, animales y personas.",
+        curiosidades: [
+            "La Tierra tiene 4 mil 500 millones de años",
+            "Es el único planeta con océanos de agua líquida",
+            "La Luna es nuestro único satélite natural",
+            "La Tierra no es una esfera perfecta, está achatada en los polos"
+        ]
+    },
+    {
+        nombre: "Luna",
+        imagen: "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?w=400",
+        descripcion: "La Luna es el único satélite natural de la Tierra. Es un cuerpo rocoso gris que nos acompaña siempre. No tiene luz propia, solo refleja la luz del Sol. Los astronautas llegaron a la Luna en 1969 y dejaron huellas que siguen ahí porque no hay viento.",
+        curiosidades: [
+            "La Luna se está alejando de la Tierra 3 centímetros cada año",
+            "Siempre nos muestra la misma cara, la otra cara está oculta",
+            "En la Luna pesas 6 veces menos que en la Tierra",
+            "Hay montañas en la Luna más altas que las de la Tierra"
+        ]
+    },
+    {
+        nombre: "Marte",
+        imagen: "https://images.unsplash.com/photo-1614726365723-49cfae927846?w=400",
+        descripcion: "Marte es el planeta rojo, llamado así por su color de óxido de hierro, como el óxido. Es un planeta frío y seco con desiertos de polvo rojo. Tiene el volcán más grande del sistema solar y científicos creen que pudo haber tenido agua hace mucho tiempo.",
+        curiosidades: [
+            "Marte tiene dos lunas pequeñas: Fobos y Deimos",
+            "Tiene el volcán más alto del sistema solar, el Monte Olimpo",
+            "Los días en Marte duran casi lo mismo que en la Tierra",
+            "Hay robots explorando Marte ahora mismo"
+        ]
+    },
+    {
+        nombre: "Júpiter",
+        imagen: "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=400",
+        descripcion: "Júpiter es el planeta más grande del sistema solar. Es un gigante de gas, no tiene superficie sólida donde pisar. Tiene una gran mancha roja que es una tormenta gigante que lleva siglos girando. Tiene más de 90 lunas.",
+        curiosidades: [
+            "Júpiter es tan grande que cabrían mil 300 Tierras dentro",
+            "Su gran mancha roja es del tamaño de la Tierra",
+            "Tiene un anillo muy tenue que casi no se ve",
+            "Gira tan rápido que un día dura solo 10 horas"
+        ]
+    },
+    {
+        nombre: "Saturno",
+        imagen: "https://images.unsplash.com/photo-1614732414444-096e6f3d2d96?w=400",
+        descripcion: "Saturno es famoso por sus hermosos anillos que parecen un sombrero. Es un gigante de gas amarillento. Sus anillos están hechos de millones de pedazos de hielo y roca, algunos del tamaño de una casa, otros del tamaño de un grano de arena.",
+        curiosidades: [
+            "Saturno es menos denso que el agua, flotaría en una bañera gigante",
+            "Sus anillos tienen más de 100 mil millones de partículas",
+            "Tiene una luna llamada Titán que tiene lagos de metano",
+            "Los vientos en Saturno pueden llegar a 1.800 kilómetros por hora"
+        ]
+    },
+    {
+        nombre: "Urano",
+        imagen: "https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=400",
+        descripcion: "Urano es un planeta gigante de hielo de color azul verdoso. Es muy especial porque gira acostado, como si rodara en su órbita. Está muy lejos del Sol y hace muchísimo frío, 200 grados bajo cero. Tiene anillos oscuros que son difíciles de ver.",
+        curiosidades: [
+            "Un año en Urano dura 84 años terrestres",
+            "Tiene 27 lunas conocidas",
+            "Es el planeta más frío del sistema solar",
+            "Gira acostado, probablemente por un choque gigante hace mucho tiempo"
+        ]
+    },
+    {
+        nombre: "Neptuno",
+        imagen: "https://images.unsplash.com/photo-1614728423169-3f65fd723619?w=400",
+        descripcion: "Neptuno es el planeta más lejano del Sol y es de color azul intenso. Es un gigante de hielo con los vientos más rápidos del sistema solar, hasta 2 mil kilómetros por hora. Es tan lejos que la luz del Sol tarda 4 horas en llegar.",
+        curiosidades: [
+            "Neptuno fue el primer planeta descubierto con matemáticas",
+            "Tiene una gran mancha oscura como Júpiter, pero desaparece y aparece",
+            "Un año en Neptuno dura 165 años terrestres",
+            "Tiene 14 lunas conocidas, la más grande se llama Tritón"
+        ]
+    },
+    {
+        nombre: "Plutón",
+        imagen: "https://images.unsplash.com/photo-1614728894747-a63ba4d54e76?w=400",
+        descripcion: "Plutón era considerado el noveno planeta, pero ahora se le llama planeta enano. Es un mundo pequeño, frío y helado en el borde del sistema solar. Tiene un corazón gigante en su superficie y cinco lunas, siendo Caronte la más grande.",
+        curiosidades: [
+            "Plutón es más pequeño que la Luna de la Tierra",
+            "Su corazón es una llanura de hielo del tamaño de Texas",
+            "Un día en Plutón dura 6 días y 9 horas terrestres",
+            "La sonda New Horizons lo visitó en 2015 y tomó fotos increíbles"
+        ]
+    },
+    {
+        nombre: "Cinturón de Asteroides",
+        imagen: "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400",
+        descripcion: "Entre Marte y Júpiter hay un cinturón lleno de rocas espaciales llamadas asteroides. Son restos de cuando se formó el sistema solar. El más grande se llama Ceres, que es tan grande que también se considera planeta enano.",
+        curiosidades: [
+            "Hay millones de asteroides en el cinturón",
+            "Algunos asteroides tienen sus propias lunas pequeñas",
+            "Los asteroides pueden ser de roca, metal o hielo",
+            "A veces asteroides salen del cinturón y pueden acercarse a la Tierra"
+        ]
+    }
+],
     exoplanetas: [
         {
             nombre: "Kepler-452b",
